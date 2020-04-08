@@ -5,6 +5,9 @@ namespace ExercicioCotacao {
     class Program {
         static void Main(string[] args) {
 
+            /* Programa que realiza a conversão do Real para o Dólar
+             * de acordo com os valores que o usuário inserir. */
+
             Console.Write("Qual é a cotação do dólar? ");
             double cotacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
